@@ -9,10 +9,10 @@ import { NavController} from '@ionic/angular';
 
 export class NavegacaoPage implements OnInit {
 
-  constructor( private navController: NavController) {}
+  constructor( private navController: NavController) { }
   ngOnInit() {
   }
-
+  
 showPageNavegacao2(){
     this.navController.navigateForward('navegacao2');
   }  
